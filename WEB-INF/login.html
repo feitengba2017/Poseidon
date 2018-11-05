@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>登录</title>
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
+	<script type="text/javascript" src="dist/js/bootstrap.min.js" ></script>
+	<script type="text/javascript" src="js/login.js" ></script>
+</head>
+<body>
+	<div class="login_box">
+		<header class="login_header">
+		 <p><span class="header_name">掌大优选</span><span class="header_txt">欢迎登陆!</span></p> 
+		</header>
+		<div class="login_cont">
+			<img src='img/lunbo_02.png'>
+			<div class="login_txt">
+				<ul class="login_ul">
+					<li>
+						<label>用户名</label>
+						<input type="text" placeholder='请输入用户名' id='name'/>
+						<p class="none" id='name_error'>用户名输入错误!</p>
+					</li>
+					<li>
+						<label>密码</label>
+						<input type="password" placeholder='请输入密码' id='pass'/>
+						<p class="none" id='pass_error'>密码输入错误!</p>
+					</li>
+				</ul>
+				<button type="button" class="btn" onclick="window.location='http://47.98.222.31:5000/login.jsp'">登录</button>
+			</div>
+		</div>
+		<footer class="box_footer">
+			<div class="footer_cont">
+				<img src='img/zhang_03.png'>
+				<p class="footer_name">北京赢果网络科技有限公司</p>
+				<p class="footer_intro">引领电商、小程序、线下线上便利店</p>
+			</div>
+		</footer>
+	</div>
+	
+</body>
+</html>
